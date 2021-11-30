@@ -17,6 +17,8 @@ function setEnvWithValue(key, contextOrBranch, mode) {
   console.log(`Exporting ${key}=${process.env[envVar]}.`);
   process.env[key] = process.env[envVar];
 
+  delete process.env[envVar];
+
   return `${key}=${process.env[envVar]}\n`;
 }
 
