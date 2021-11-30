@@ -1,11 +1,11 @@
 {
-  "name": "netlify-plugin-contextual-env",
+  "name": "netlify-plugin-optimize-contextual-env",
   "version": "0.3.0",
-  "description": "A Netlify plugin to override ENV vars based on a branch or context",
+  "description": "A Netlify plugin to override ENV vars based on a branch or context and removes replaced ENV",
   "main": "src/index",
-  "repository": "https://github.com/cball/netlify-plugin-contextual-env",
+  "repository": "https://github.com/jheung/netlify-plugin-contextual-env",
   "bugs": {
-    "url": "https://github.com/cball/netlify-plugin-contextual-env/issues"
+    "url": "https://github.com/jheung/netlify-plugin-contextual-env/issues"
   },
   "author": "Chris Ball",
   "license": "MIT",
