@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-optimize-contextual-env",
-  "version": "0.3.0",
+  "version": "0.4.0-0",
   "description": "A Netlify plugin to override ENV vars based on a branch or context and removes replaced ENV",
   "main": "src/index",
   "repository": "https://github.com/jheung/netlify-plugin-contextual-env",
